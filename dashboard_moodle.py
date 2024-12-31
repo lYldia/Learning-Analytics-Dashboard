@@ -54,7 +54,7 @@ if semestres_selecionados:
         st.dataframe(df_tipo_semestre)
 
         # Gerar o gráfico de barras comparando os semestres
-        fig = px.bar(df_tipo_semestre,
+        fig = go.bar(df_tipo_semestre,
                      x='Semestre',  # Apenas os semestres aparecem no eixo X
                      y='Strings Únicas',
                      color=coluna_tipo,
