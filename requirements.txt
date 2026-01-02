@@ -1,5 +1,6 @@
 pandas
 streamlit
+plotly-graph-objects
 plotly.subplots
 make_subplots
 sqlite3
